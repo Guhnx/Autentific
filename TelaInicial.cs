@@ -62,5 +62,10 @@ namespace Autentific
                 rel.Show();
             }
         }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

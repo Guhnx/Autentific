@@ -35,52 +35,62 @@
             this.btnRegristo = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.btnValidar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(413, 84);
+            this.txtUsuario.Location = new System.Drawing.Point(391, 81);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(0);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.PlaceholderText = "Email ou CPF";
-            this.txtUsuario.Size = new System.Drawing.Size(201, 23);
+            this.txtUsuario.Size = new System.Drawing.Size(241, 23);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(413, 113);
+            this.txtSenha.Location = new System.Drawing.Point(390, 112);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(0);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.PlaceholderText = "Senha";
-            this.txtSenha.Size = new System.Drawing.Size(201, 23);
+            this.txtSenha.Size = new System.Drawing.Size(242, 23);
             this.txtSenha.TabIndex = 1;
             // 
             // logo
             // 
-            this.logo.Image = global::Autentific.Properties.Resources.dildo_icon;
-            this.logo.Location = new System.Drawing.Point(31, 32);
+            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.logo.Image = global::Autentific.Properties.Resources.background;
+            this.logo.Location = new System.Drawing.Point(0, 0);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(309, 267);
+            this.logo.Size = new System.Drawing.Size(698, 341);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 2;
             this.logo.TabStop = false;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // btnLogar
             // 
-            this.btnLogar.Location = new System.Drawing.Point(539, 165);
+            this.btnLogar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnLogar.FlatAppearance.BorderSize = 0;
+            this.btnLogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnLogar.Location = new System.Drawing.Point(390, 147);
             this.btnLogar.Name = "btnLogar";
-            this.btnLogar.Size = new System.Drawing.Size(75, 23);
+            this.btnLogar.Size = new System.Drawing.Size(242, 22);
             this.btnLogar.TabIndex = 3;
             this.btnLogar.Text = "LOGAR";
-            this.btnLogar.UseVisualStyleBackColor = true;
+            this.btnLogar.UseVisualStyleBackColor = false;
             this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
             // btnRegristo
             // 
-            this.btnRegristo.Location = new System.Drawing.Point(413, 165);
+            this.btnRegristo.FlatAppearance.BorderSize = 0;
+            this.btnRegristo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegristo.Location = new System.Drawing.Point(390, 206);
+            this.btnRegristo.Margin = new System.Windows.Forms.Padding(0);
             this.btnRegristo.Name = "btnRegristo";
-            this.btnRegristo.Size = new System.Drawing.Size(112, 23);
+            this.btnRegristo.Size = new System.Drawing.Size(242, 21);
             this.btnRegristo.TabIndex = 4;
             this.btnRegristo.Text = "CADASTRAR";
             this.btnRegristo.UseVisualStyleBackColor = true;
@@ -88,29 +98,25 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(413, 251);
+            this.txtCodigo.Location = new System.Drawing.Point(390, 230);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.PlaceholderText = "Digite o Código";
-            this.txtCodigo.Size = new System.Drawing.Size(112, 23);
+            this.txtCodigo.Size = new System.Drawing.Size(117, 23);
             this.txtCodigo.TabIndex = 5;
             // 
             // btnValidar
             // 
-            this.btnValidar.Location = new System.Drawing.Point(539, 251);
+            this.btnValidar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnValidar.FlatAppearance.BorderSize = 0;
+            this.btnValidar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnValidar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnValidar.Location = new System.Drawing.Point(527, 230);
             this.btnValidar.Name = "btnValidar";
-            this.btnValidar.Size = new System.Drawing.Size(75, 23);
+            this.btnValidar.Size = new System.Drawing.Size(105, 23);
             this.btnValidar.TabIndex = 6;
             this.btnValidar.Text = "VALIDAR";
-            this.btnValidar.UseVisualStyleBackColor = true;
+            this.btnValidar.UseVisualStyleBackColor = false;
             this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Location = new System.Drawing.Point(371, 32);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(315, 267);
-            this.panel1.TabIndex = 7;
             // 
             // TelaInicial
             // 
@@ -121,10 +127,9 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnRegristo);
             this.Controls.Add(this.btnLogar);
-            this.Controls.Add(this.logo);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.logo);
             this.Name = "TelaInicial";
             this.Text = "Tela Inicial";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
@@ -142,6 +147,5 @@
         private Button btnRegristo;
         private TextBox txtCodigo;
         private Button btnValidar;
-        private Panel panel1;
     }
 }

@@ -47,7 +47,9 @@
             this.Curso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Período = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAtualiza = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dvgUsuarios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dvgUsuarios
@@ -68,12 +70,12 @@
             this.dataGridViewTextBoxColumn7,
             this.Autenticação,
             this.Senha});
-            this.dvgUsuarios.Location = new System.Drawing.Point(34, 36);
+            this.dvgUsuarios.Location = new System.Drawing.Point(12, 40);
             this.dvgUsuarios.MultiSelect = false;
             this.dvgUsuarios.Name = "dvgUsuarios";
             this.dvgUsuarios.ReadOnly = true;
             this.dvgUsuarios.RowTemplate.Height = 25;
-            this.dvgUsuarios.Size = new System.Drawing.Size(727, 333);
+            this.dvgUsuarios.Size = new System.Drawing.Size(576, 324);
             this.dvgUsuarios.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -151,7 +153,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(394, 390);
+            this.btnFechar.Location = new System.Drawing.Point(295, 370);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(114, 43);
             this.btnFechar.TabIndex = 2;
@@ -211,7 +213,7 @@
             // 
             // btnAtualiza
             // 
-            this.btnAtualiza.Location = new System.Drawing.Point(254, 390);
+            this.btnAtualiza.Location = new System.Drawing.Point(175, 370);
             this.btnAtualiza.Name = "btnAtualiza";
             this.btnAtualiza.Size = new System.Drawing.Size(114, 43);
             this.btnAtualiza.TabIndex = 3;
@@ -219,18 +221,33 @@
             this.btnAtualiza.UseVisualStyleBackColor = true;
             this.btnAtualiza.Click += new System.EventHandler(this.btnAtualiza_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Autentific.Properties.Resources.Dark_Grey_and_White_Minimalist_Website_Register_Desktop_Prototype_1__copiar;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(592, 437);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // Relatorio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(592, 437);
             this.Controls.Add(this.btnAtualiza);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.dvgUsuarios);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Relatorio";
             this.Text = "Relatorio";
             this.Load += new System.EventHandler(this.Relatorio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgUsuarios)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -256,5 +273,6 @@
         private DataGridViewTextBoxColumn Autenticação;
         private DataGridViewTextBoxColumn Senha;
         private Button btnAtualiza;
+        private PictureBox pictureBox1;
     }
 }

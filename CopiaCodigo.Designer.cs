@@ -30,6 +30,8 @@
         {
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -53,6 +55,19 @@
             this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCodigo.UseWaitCursor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Autentific.Properties.Resources.Dark_Grey_and_White_Minimalist_Website_Register_Desktop_Prototype_1__copiar;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(445, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // CopiaCodigo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -60,9 +75,11 @@
             this.ClientSize = new System.Drawing.Size(445, 151);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "CopiaCodigo";
             this.Text = "CopiaCodigo";
             this.Load += new System.EventHandler(this.CopiaCodigo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -72,5 +89,6 @@
 
         private Label lblTitulo;
         private TextBox txtCodigo;
+        private PictureBox pictureBox1;
     }
 }

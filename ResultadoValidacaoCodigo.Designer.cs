@@ -41,7 +41,9 @@
             this.txtCurso = new System.Windows.Forms.TextBox();
             this.txtPeriodo = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl1
@@ -154,13 +156,26 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Autentific.Properties.Resources.ok_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(273, 12);
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Image = global::Autentific.Properties.Resources._2222;
+            this.pictureBox1.Location = new System.Drawing.Point(272, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Autentific.Properties.Resources.cadastrotela;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(601, 325);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
             // 
             // ResultadoValidacaoCodigo
             // 
@@ -180,10 +195,12 @@
             this.Controls.Add(this.lbl3);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "ResultadoValidacaoCodigo";
             this.Text = "Resultado da Validação";
             this.Load += new System.EventHandler(this.ResultadoValidacaoCodigo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,5 +221,6 @@
         private TextBox txtCurso;
         private TextBox txtPeriodo;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

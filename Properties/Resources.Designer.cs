@@ -63,9 +63,9 @@ namespace Autentific.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dildo_icon {
+        internal static System.Drawing.Bitmap _2222 {
             get {
-                object obj = ResourceManager.GetObject("dildo_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("2222", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,59 @@ namespace Autentific.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ok_icon {
+        internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("ok_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cadastrotela {
+            get {
+                object obj = ResourceManager.GetObject("cadastrotela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Grey_and_White_Minimalist_Website_Register_Desktop_Prototype_1_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Grey and White Minimalist Website Register Desktop Prototype(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Grey_and_White_Minimalist_Website_Register_Desktop_Prototype_1__copiar {
+            get {
+                object obj = ResourceManager.GetObject("Dark Grey and White Minimalist Website Register Desktop Prototype(1) copiar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verificar_3_ {
+            get {
+                object obj = ResourceManager.GetObject("verificar(3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verificar_3__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("verificar_3_-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
